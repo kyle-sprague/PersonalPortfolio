@@ -1,0 +1,179 @@
+*{
+    margin: 0; 
+    padding: 0; 
+}
+
+html{
+    
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 10px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar{
+    display: flex; 
+    justify-content: end;
+    align-items: center;
+    background-image: linear-gradient(62deg, #D7263D 0%, #a11225 100%);
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    position: fixed; 
+    height: 4rem; 
+    border-bottom: 2px solid black;
+}
+
+ul {
+    list-style: none;
+    display: flex; 
+}
+
+#navbar a{
+    text-decoration: none; 
+    color: white; 
+    font-size: 2rem; 
+    margin: 1rem; 
+}
+
+#navbar a:hover{
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); 
+    padding: 0.9rem; 
+}
+
+#welcome-section{
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+#welcome-section h1{
+    font-size: 4.5rem;
+    color: white; 
+    margin: 1rem; 
+    font-weight: 500;
+}
+
+#welcome-section p{
+    font-size: 2.5rem; 
+    color: #a11225; 
+    margin: 1rem; 
+}
+
+#about{
+    background-image: linear-gradient(#03b796 0%, #0da186 100%);
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: white;
+}
+
+.about-title{
+    margin-left: 15%; 
+    margin-top: 10%; 
+}
+
+.response{
+    margin-left: 20%; 
+    margin-top: 5%; 
+}
+
+#about p{
+    margin-left: 10%;
+    font-size: 1.75rem;
+    margin-top: 2%; 
+    font-weight: 200; 
+    margin-bottom: 5%; 
+}
+
+#about h2{
+    font-size: 3rem; 
+    font-weight: 400; 
+}
+
+#about h3{
+    font-size: 2.5rem; 
+    font-weight: 400; 
+}
+
+#projects{
+    background-image: linear-gradient(#1d5c81 0%, #114868 100%);
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+}
+
+#projects h2{
+    font-size: 3rem; 
+    font-weight: 400;
+}
+
+.projects-title{
+    margin-top: 7%; 
+}
+
+
+.projects-container{
+    margin-top: 5%; 
+    width: 75%; 
+    display: flex; 
+    justify-content: space-around;
+
+}
+
+@media only screen and (max-width: 600px){
+    .projects-container{
+        display: flex; 
+        flex-direction: column;
+    }
+}
+
+
+#projects p{
+    background-color: #3a3d40; 
+    text-align: center; 
+    font-size: 1.5rem; 
+    color: white; 
+}
+
+.project-tile:hover{
+    border: 3px solid #a11225; 
+}
+
+
+#contact{
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+}
+
+#contact h2{
+    margin-top: 20%; 
+    font-size: 3rem; 
+    font-weight: 400; 
+}
+
+#contact a{
+    text-decoration: none; 
+    color: white; 
+    font-size: 2rem; 
+    margin: 1rem; 
+}
+
+#contact ul {
+    margin-top: 5%; 
+}
